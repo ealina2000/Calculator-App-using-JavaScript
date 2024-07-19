@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(images/240_F_768295161_5P5k7ZAQESUp1pzVNd8I1sgB6gfChbWA.jpg );
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-blend-mode: multiply;
+    background-color:#00BCD4 ; */
+    font-family: "Roboto", sans-serif;
+}
+
+
+.main-container{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #83837a;
+    height: 380px;
+    border-radius: 10px;
+    background-color: #5a5a5bc2;
+}
+.heading{
+    color: #fff;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#input{
+    width: 165px;
+    padding: 20px 20px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: #f1f1f1;
+    border: none;
+   
+}
+.box{
+    display: flex;
+}
+.btn{
+    padding: 10px;
+    margin: 5px 5px;
+    width: 45px;
+    border-radius: 10px;
+    background-color: #313131cf;
+    /* border: none; */
+    border: 1px solid #83837a;
+    color: #fff;
+}
+.btn-1{
+    padding: 10px;
+    margin: 5px 5px;
+    width: 45px;
+    border-radius: 10px;
+    background-color: #313131cf;
+    border: none;
+    color: #ff8254;
+    font-weight: bold;
+}
+.btn-2{
+    padding: 10px;
+    margin: 5px 5px;
+    width: 45px;
+    border-radius: 10px;
+    background-color:#ff6126 ;
+    border: none;
+    color: #fff;
+}
+button:hover{
+    background-color: #ff8254;
+    color: #fff;
+    font-weight: bolder;
+    transform: scale(1);
+    
+}
+
+@media(max-width:575.98px){
+    .heading{
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
