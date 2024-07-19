@@ -3,7 +3,7 @@
 let buttons = document.querySelectorAll("button")
 let inp = document.querySelector("#input")
 let str = '';
-// Create buttons to an array by array.from methord
+// Create an array from buttons by array.from methord.
 let arr = Array.from(buttons);
 
 arr.forEach((btn) => {
@@ -18,9 +18,7 @@ arr.forEach((btn) => {
     } else if (e.target.innerHTML === "AC") {
       str = "";//if "AC" button is clicked clear the input
       inp.value = str;
-    }
-    // add evements to string
-    else {
+    }else {
       str += e.target.innerHTML;
       inp.value = str;
     }
